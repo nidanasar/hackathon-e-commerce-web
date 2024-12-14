@@ -52,7 +52,10 @@ const Header = () => {
           <FaPortrait className="w-7 h-7" />
           <CiSearch className="w-7 h-7" />
           <FaRegHeart className="w-7 h-7" />
+          
+          <Link href="/singleproduct">
           <IoCartOutline className="w-7 h-7" />
+          </Link>
         </div>
 
         {/* Hamburger Menu for Mobile */}
