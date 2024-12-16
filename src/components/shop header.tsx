@@ -15,7 +15,7 @@ const ShopHeader= () => {
                 <Link href="/" className="hover:underline">
                   Home
                 </Link>
-                <span>›</span>
+                <span>/</span>
                 <span>Shop</span>
               </div>
   </div>

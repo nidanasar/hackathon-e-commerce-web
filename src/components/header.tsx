@@ -45,17 +45,27 @@ const Header = () => {
           <Link href="/contact" className="text-black hover:underline">
             Contact
           </Link>
+          <Link href="/blog" className="text-black hover:underline">
+            Blog
+          </Link>
         </nav>
 
         
         <div className="hidden md:flex items-center gap-5 text-black">
-          <FaPortrait className="w-7 h-7" />
-          <CiSearch className="w-7 h-7" />
-          <FaRegHeart className="w-7 h-7" />
-          
-          <Link href="/singleproduct">
-          <IoCartOutline className="w-7 h-7" />
+          <Link href="/account">
+          <FaPortrait className="w-7 h-7"/>
           </Link>
+          <Link href="/shop">
+          <CiSearch className="w-7 h-7"/>
+          </Link>
+          <Link href="/singleproduct">
+          <FaRegHeart className="w-7 h-7"/>
+          </Link>
+          
+          <Link href="/cart2">
+          <IoCartOutline className="w-7 h-7"/>
+          </Link>
+          
         </div>
 
         {/* Hamburger Menu for Mobile */}

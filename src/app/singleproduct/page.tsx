@@ -120,9 +120,13 @@ export default function SingleProduct(){
           <span className="px-3 py-1">1</span>
           <button className="px-3 py-1 text-xl">+</button>
         </div>
+      
         <button className="bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700">
-          Add To Cart
-        </button>
+        Add To Cart
+      </button>
+      
+    
+        
       </div>
 
       {/* Product Details */}
@@ -224,3 +228,4 @@ export default function SingleProduct(){
     </div>
 
 )}
+

@@ -1,7 +1,6 @@
 import FilterBar from '@/components/filter bar'
-import React from 'react';
 import ShopHeader from '@/components/shop header';
-import ShoppingCart from '@/components/shoppingcart';
+import React from 'react';
 
 
 const products = [

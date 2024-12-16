@@ -1,7 +1,7 @@
-
+import Link from "next/link";
 export default function Footer() {
   return (
-    <footer className="bg-[#FAF4F4] py-10">
+    <footer className="bg-white py-10">
       <div className="container mx-auto px-5">
       
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-center md:text-left">
@@ -15,16 +15,16 @@ export default function Footer() {
             <h3 className="font-bold mb-2">Links</h3>
             <ul>
               <li className="text-gray-600 hover:underline">
-                <a href="#">Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li className="text-gray-600 hover:underline">
-                <a href="#">Shop</a>
+              <Link href="/shop">Shop</Link>
               </li>
               <li className="text-gray-600 hover:underline">
-                <a href="#">About</a>
+              <Link href="/about">About</Link>
               </li>
               <li className="text-gray-600 hover:underline">
-                <a href="#">Contact</a>
+              <Link href="/contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -33,13 +33,14 @@ export default function Footer() {
             <h3 className="font-bold mb-2">Help</h3>
             <ul>
               <li className="text-gray-600 hover:underline">
-                <a href="#">Payment Options</a>
+              <Link href="/checkout">Payment Options</Link>
               </li>
               <li className="text-gray-600 hover:underline">
-                <a href="#">Returns</a>
+              <Link href="#">returns</Link>
               </li>
               <li className="text-gray-600 hover:underline">
-                <a href="#">Privacy Policies</a>
+                 <Link href="#">Privecy Policy</Link>
+
               </li>
             </ul>
           </div>
